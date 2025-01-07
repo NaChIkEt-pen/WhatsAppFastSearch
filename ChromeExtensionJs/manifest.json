@@ -1,0 +1,38 @@
+{
+  "name": "WhatsAppFastSearch",
+  "version": "0.1.0",
+  "description": "WhatsApp Semantic Search",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["https://web.whatsapp.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["jsencrypt.min.js", "contentScript.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/bookmark.png",
+        "assets/play.png",
+        "assets/delete.png",
+        "assets/save.png"
+      ],
+      "matches": ["https://web.whatsapp.com/*"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "./assets/favicon-3.png",
+      "24": "./assets/favicon-3.png",
+      "32": "./assets/favicon-3.png",
+      "128": "./assets/favicon-3.png"
+    },
+    "default_title": "WhatsApp Fast Search",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}
