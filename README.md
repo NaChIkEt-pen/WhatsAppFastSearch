@@ -10,6 +10,14 @@ A powerful Chrome extension that enables semantic search capabilities for WhatsA
 - **Data Privacy**: User-specific data storage with secure access controls. 🛡️
 - **Easy Interface**: Simple and intuitive UI integrated into WhatsApp Web. 💻
 
+## 🏞️ User Interface Preview
+<table>
+  <tr>
+     <td><img src="https://github.com/NaChIkEt-pen/WhatsAppFastSearch/blob/main/images/image-1.png?raw=true" width="300" /></td>
+     <td><img src="https://github.com/NaChIkEt-pen/WhatsAppFastSearch/blob/main/images/image-2.png?raw=true" width="300" /></td>
+  </tr>
+</table>
+
 ## How It Works 🛠️
 
 ### Frontend (Chrome Extension) 💻
