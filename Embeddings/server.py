@@ -24,6 +24,7 @@ CORS(app)
 @app.route('/', methods=['POST'])
 def receive_messages():
     try:
+        print("here")
         data = request.get_json()
         messages = data.get('messages', [])
         mob = data.get('mob')
